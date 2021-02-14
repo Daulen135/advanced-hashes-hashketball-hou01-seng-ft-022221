@@ -177,13 +177,8 @@ end
 		   
 			if a[:player_name] == player_name
 				my_hash = a
+			   return my_hash
 				
-			
-			
-				return my_hash
-				
-	binding.pry
-	my_hash
 			end
 		end
 	end

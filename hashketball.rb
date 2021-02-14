@@ -176,7 +176,7 @@ end
 		team_data[:players].each do |a|
 		   
 			if a[:player_name] == player_name
-				my_hash == a
+				my_hash = a
 				
 				my_hash.shift
 			

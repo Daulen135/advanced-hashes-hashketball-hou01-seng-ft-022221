@@ -174,8 +174,9 @@ end
 	game_hash.each do |location, team_data|
 	 
 		team_data[:players].each do |a|
-		   binding.p!!1ry
-			if a[:player_name] == player_name
+		   
+			if a[:player_name] == 
+			  binding.pry
 				my_hash = a
 				my_hash.shift
 				return my_hash

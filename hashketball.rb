@@ -172,8 +172,9 @@ end
   
   def player_stats(player_name)
 	game_hash.each do |location, team_data|
-	  binding.pry
-		team_data[:players].each do |a| 
+	 
+		team_data[:players].each do |a|
+		   binding.pry
 			if a[:player_name] == player_name
 				my_hash = a
 				my_hash.shift

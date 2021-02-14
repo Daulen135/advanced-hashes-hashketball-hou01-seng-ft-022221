@@ -179,8 +179,10 @@ end
 				my_hash = a
 				
 				my_hash.shift
-				binding.pry
+			
 				return my_hash
+				
+	binding.pry
 			end
 		end
 	end
